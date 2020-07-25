@@ -1,3 +1,14 @@
+Creating new repository from scratch:
+
+1. create new repo on github
+
+2. ```
+   $ git remote add origin git@github.com:username/new_repo
+   $ git push -u origin master
+   ```
+
+------
+
 If you’ve never used git or github before, there are a bunch of things that you need to do.  It’s [very well explained on github](https://help.github.com/articles/set-up-git), but repeated here for completeness.
 
 - Get a [github](https://github.com) account.

@@ -98,3 +98,20 @@ If you’ve never used git or github before, there are a bunch of things that yo
     [remote "origin"]
         url = git@your.hostname.com:username/reponame.git
     ```
+
+------
+
+Git proxy settings:
+
+```
+vim ~/.gitconfig
+```
+
+```
+[http "https://188.252.28.69"]
+    proxy = http://username@server:same_port
+
+[http]
+    proxy = http://proxy.server:same_port
+```
+
